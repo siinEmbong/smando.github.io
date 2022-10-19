@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="index.html">
+                  <img src="image/unnamed.png" height="64" alt="Logo SMA INDOCEMENT">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                              <a style="font-weight: 700;" class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Tentang Kami
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Profile</a>
+                                    <a class="dropdown-item" href="#">Visi Misi</a>
+                                    <a class="dropdown-item" href="#">Struktur Organisasi</a>
+                                    <a class="dropdown-item" href="#">Tim Kami</a>
+                              </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pendaftaran
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                    <a class="dropdown-item" href="#">PMB 2023/2024</a>
+                                    <a class="dropdown-item" href="#">Beasiswa</a>
+                              </div>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Biaya Sekolah</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Kehidupan Sekolah</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Kontak Kami</a>
+                        </li>
+                  </ul>
+            </div>
+      </nav>

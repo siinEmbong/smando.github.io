@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root {
+      --mainColor: #3258E8;
+      --white: #fff;
+      --red: #FF4949;
+      --green: #1A5862;
+      --yellow: #FFD37A;
+      --orange: #E29600;
+      --softGrey: #ebebeb;
+      --font1: #232631;
+      --font2: #7B7B7B;
+      --darkBlue: #211B3D;
+      --margin: 48px;
+      --margintop1: 48px;
+      --margintop2: 40px;
+      --marginRight:48px;
+}
+
+body {
+      font-family: 'Poppins', sans-serif;
+      padding: 0px 100px;
+      background-color: var(--white);
+}
+
+.container-fluid {
+      padding: 0px 100px;
+}
+
+.marginDiv{
+      margin-top: 24px;
+      margin-bottom: 120px;
+}
+
+/* ------------- Navbar ------------- */
+.navbar {
+      font-size: 16px;
+      background-color: var(--white);
+}
+
+.nav-item {
+      margin: 16px 16px;
+      color: var(--font2);
+}
+
+.dropdown-item {
+      color: var(--font2);
+      font-weight: lighter;
+      padding: 16px;
+      border-radius: 16px;
+}
+
+.dropdown-menu {
+      padding: 16px;
+      border: none;
+      border-radius: 24px;
+      box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-menu :hover {
+      background-color: #D1DAFF;
+}
+
+
+
+/* Section 1*/
+#content{
+      margin-top: var(--margintop1);
+}
+
+.khusus1{
+      margin-top: 64px;
+}
+
+.title1{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 84px;
+      color: var(--font1);
+}
+
+.title1 b{
+      color: var(--mainColor);
+      font-weight: 800;
+}
+
+.paragraf1{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #7B7B7B;
+}
+
+.ctaGroup{
+      margin-top: var(--margintop2);
+      margin-left: 4px;
+}
+
+.btn1{
+      width: 180px;
+      height: 60px;
+      border-radius: 100px;
+      margin-right: var(--marginRight);
+}
+
+
+/*Section 2*/
+#section2{
+      background-color: #3258E8;
+      border-radius: 32px;
+      padding: 16px 64px;
+}
+
+.kotak1{
+      width: 226px;
+      padding: 16px 4px;
+      margin: 24px 0px;
+}
+
+.kotak1 h6{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      color: var(--white);
+      margin-bottom: 16px;
+}
+
+.kotak1 p{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: var(--white);
+      line-height: 0px;
+}
+
+.garis{
+      height: 125px;
+      border: 1px solid #EBEBEB;
+
+}
+
+/* Section 3*/
+.paragrafKhusus{
+      color: var(--mainColor);
+      font-size: 16px;
+      font-weight: 600;
+}
+.title2{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 64px;
+      color: var(--darkBlue);
+}
+
+.kolom{
+      padding: 16px 0px;
+      margin-bottom: 60px;
+}
+
+.contentt{
+      margin-left: 24px;
+}
+
+.titleKeunggulan{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 30px;
+      color: #232631;
+}
+
+.paragrafKeunggulan{
+      width: 240px;
+      height: 60px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      color: var(--font2);
+}
+
+/*Section 4*/
+#section4{
+      text-align: center;
+      align-items: center;
+}
+
+.title3{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 64px;
+      color: var(--darkBlue);
+}
+
+.card{
+      border-radius: 24px;
+}
+
+.card-img-top{
+      border-radius: 24px 24px 0px 0px;
+}
+
+.card-text{
+      color: var(--white);
+      font-size: 16px;
+      font-family: 'Poppins';
+      line-height: 30px;
+}
+
+.card-body{
+      background-color: var(--darkBlue);
+      border-radius: 0px 0px 24px 24px;
+}
+
+.card :hover{
+      box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------- Media Queries Mobile ------------- */
+@media screen  and (max-width: 400px)  {
+      body {
+            font-family: 'Poppins', sans-serif;
+            padding: 16px 16px;
+            background-color: white;
+      }
+
+      .marginDiv{
+            margin-top: 32px;
+            margin-bottom: 32px;
+      }
+
+      .navbar {
+            font-size: 16px;
+            background-color: var(--white);
+      }
+      
+      .nav-item {
+            margin: 16px 16px;
+            color: var(--font2);
+      }
+      
+      .dropdown-item {
+            color: var(--font2);
+            font-weight: lighter;
+            padding: 16px;
+            border-radius: 16px;
+      }
+      
+      .dropdown-menu {
+            padding: 16px;
+            border: none;
+            border-radius: 24px;
+            box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);
+      }
+      
+      .dropdown-menu :hover {
+            background-color: #D1DAFF;
+      }
+
+      
+      #content{
+            margin-top: 0px;
+      }
+
+      .fotoSatu{
+            margin-top: 64px;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+      }
+
+      .khusus1{
+            margin-top: 32px;
+      }
+
+      .title1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 72px;
+            color: var(--font1);
+            text-align: center;
+      }
+
+      .paragraf1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #7B7B7B;
+            text-align: center;
+      }
+
+      .ctaGroup{
+            margin-top: var(--margintop2);
+            text-align: center;
+            align-items: center;   
+      }
+      
+      .btn1{
+            align-items: center;
+            text-align: center;
+            width: 160px;
+            height: 55px;
+            font-size: 15px;
+            border-radius: 100px;
+            margin-right: 8px;
+      }
+
+      .vidioImage{
+            height: 55px;
+      }
+
+
+      #section2{
+            text-align: center;
+            align-items: center;
+      }
+      .kotak1{
+            width: 300px;
+            padding: 16px 4px;
+            margin: 16px 0px;
+            text-align: center;
+      }
+
+      .kotak1 p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: var(--white);
+            line-height: 0px;
+      }
+
+      .garis{
+            height: 0px;
+            border: none;
+      
+      }
+      
+      .paragrafKhusus{
+            color: var(--mainColor);
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            align-items: center;
+            margin-top: 40px;
+      }
+
+      .title2{
+            text-align: center;
+            align-items: center;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 64px;
+            margin-bottom: 40px;
+            color: var(--darkBlue);
+      }
+      
+      .kolom{
+            padding: 16px 0px;
+            margin-bottom: 8px;
+      }
+      
+      .contentt{
+            margin-left: 24px;
+      }
+      
+      .titleKeunggulan{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 30px;
+            color: #232631;
+      }
+      
+      .paragrafKeunggulan{
+            width: 320px;
+            height: 60px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 28px;
+            color: var(--font2);
+      }
+
+}
+
+/* ------------- Media Queries Teblet -------------*/
+@media screen  and (max-width: 900px)  {
+      body {
+            font-family: 'Poppins', sans-serif;
+            padding: 16px 48px;
+            background-color: var(--white);
+      }
+
+      .marginDiv{
+            margin-top: 32px;
+            margin-bottom: 32px;
+      }
+
+      #content{
+            margin-top: 0px;
+      }
+
+      .khusus1{
+            margin-top: 48px;
+      }
+
+      .fotoSatu{
+            margin-top: 64px;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+      }
+
+      .title1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 72px;
+            color: var(--font1);
+            text-align: center;
+      }
+
+      .paragraf1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #7B7B7B;
+            text-align: center;
+      }
+
+      .ctaGroup{
+            margin-top: var(--margintop2);
+            text-align: center;
+            align-items: center;   
+      }
+      
+      .btn1{
+            align-items: center;
+            text-align: center;
+            width: 160px;
+            height: 55px;
+            font-size: 15px;
+            border-radius: 100px;
+            margin-right: 8px;
+      }
+
+      .vidioImage{
+            height: 55px;
+      }
+
+
+      #section2{
+            text-align: center;
+            align-items: center;
+      }
+      .kotak1{
+            width: 226px;
+            padding: 16px 4px;
+            margin: 16px 0px;
+            text-align: center;
+      }
+
+      .garis{
+            height: 0px;
+            border: none;
+      
+      }
+
+}
